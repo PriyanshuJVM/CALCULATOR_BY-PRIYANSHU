@@ -10,7 +10,7 @@ arr.forEach(button=>{
             input.value=string;
         }
         else if(e.target.innerHTML=='AC'){
-            string="0";
+            string="";
             input.value=string;
         }
         else if(e.target.innerHTML=='DEL'){
